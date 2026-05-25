@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Virtual Child/Pet Safety Fence
+    </title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- NAVBAR -->
+    <!-- ========================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            HK
+        </div>
+
+        <nav>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="../index.html">
+                        Home
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ========================= -->
+    <!-- PROJECT HERO -->
+    <!-- ========================= -->
+
+    <section class="project-hero">
+
+        <div class="project-hero-content">
+
+            <p class="section-tag">
+                IoT MONITORING 
+            </p>
+
+            <h1>
+                Virtual Child/Pet Safety Fence
+            </h1>
+
+            <p class="project-hero-description">
+
+                A BLE-based real-time monitoring system designed
+                to virtually track children and pets using RSSI
+                signal analysis and intelligent distance classification.
+
+            </p>
+
+            <div class="project-tags">
+
+                <span>ESP32</span>
+                <span>BLE</span>
+                <span>IoT</span>
+                <span>RSSI</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- PROJECT IMAGE -->
+    <!-- ========================= -->
+
+    <section class="project-banner-section">
+
+        <img src="../images/p1_child.png"
+             alt="Virtual Child Safety Fence"
+             class="project-banner-image">
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- OVERVIEW -->
+    <!-- ========================= -->
+
+    <section class="project-content-section reveal">
+
+        <div class="section-header">
+
+            <p class="section-tag">
+                OVERVIEW
+            </p>
+
+            <h2>
+                Project Overview
+            </h2>
+
+        </div>
+
+        <div class="project-content-card">
+
+            <p>
+
+                The Virtual Child/Pet Safety Fence is a wearable
+                IoT-based monitoring system that helps users track
+                the proximity of children or pets in real time.
+
+                The system uses BLE communication between ESP32
+                devices and evaluates signal strength using RSSI
+                analysis to classify distance levels and trigger
+                alerts accordingly.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- PROBLEM -->
+    <!-- ========================= -->
+
+    <section class="project-content-section reveal">
+
+        <div class="section-header">
+
+            <p class="section-tag">
+                PROBLEM
+            </p>
+
+            <h2>
+                Problem Statement
+            </h2>
+
+        </div>
+
+        <div class="project-content-card">
+
+            <p>
+
+                Traditional child and pet monitoring methods
+                often require continuous visual supervision.
+                This project aims to create a lightweight,
+                low-cost virtual safety boundary capable of
+                providing intelligent proximity awareness
+                and alerting users when the monitored subject
+                moves beyond safe distance thresholds.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+<!-- ARCHITECTURE -->
+<!-- ========================= -->
+
+<section class="project-content-section reveal">
+
+    <div class="section-header">
+
+        <p class="section-tag">
+            ARCHITECTURE
+        </p>
+
+        <h2>
+            System Architecture
+        </h2>
+
+    </div>
+
+    <div class="project-content-card">
+
+        <p>
+
+            The system architecture consists of BLE-based communication
+            between wearable beacon nodes and the ESP32 parent node,
+            which continuously processes RSSI values and triggers
+            real-time alert mechanisms.
+
+        </p>
+
+        <img src="../images/p1_hardware.png"
+             alt="System Architecture Diagram"
+             class="diagram-image">
+
+    </div>
+
+</section>
+
+    <!-- ========================= -->
+<!-- WORKFLOW -->
+<!-- ========================= -->
+
+<section class="project-content-section reveal">
+
+    <div class="section-header">
+
+        <p class="section-tag">
+            WORKFLOW
+        </p>
+
+        <h2>
+            System Workflow
+        </h2>
+
+    </div>
+
+    <div class="project-content-card">
+
+        <p>
+
+            The workflow continuously monitors BLE signal strength,
+            filters RSSI fluctuations, classifies proximity zones,
+            and intelligently triggers alerts based on state transitions
+            and timeout conditions.
+
+        </p>
+
+        <img src="../images/p1_workflow.png"
+             alt="Workflow Diagram"
+             class="diagram-image">
+
+    </div>
+
+</section>
+
+
+    <!-- ========================= -->
+    <!-- CHALLENGES -->
+    <!-- ========================= -->
+
+    <section class="project-content-section reveal">
+
+        <div class="section-header">
+
+            <p class="section-tag">
+                CHALLENGES
+            </p>
+
+            <h2>
+                Engineering Challenges
+            </h2>
+
+        </div>
+
+        <div class="project-content-card">
+
+            <ul class="workflow-list">
+
+                <li>
+                    RSSI fluctuations and noisy BLE signals
+                </li>
+
+                <li>
+                    False alert reduction
+                </li>
+
+                <li>
+                    Stable boundary classification
+                </li>
+
+                <li>
+                    Real-time responsiveness balancing
+                </li>
+
+                <li>
+                    Power management considerations
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- RESULTS -->
+    <!-- ========================= -->
+
+    <section class="project-content-section reveal">
+
+        <div class="section-header">
+
+            <p class="section-tag">
+                RESULTS
+            </p>
+
+            <h2>
+                Key Features & Results
+            </h2>
+
+        </div>
+
+        <div class="project-content-card">
+
+            <ul class="workflow-list">
+
+                <li>
+                    Multi-level distance detection system
+                </li>
+
+                <li>
+                    Smoothed RSSI boundary handling
+                </li>
+
+                <li>
+                    Persistent state-based alert mechanism
+                </li>
+
+                <li>
+                    Real-time BLE monitoring implementation
+                </li>
+
+                <li>
+                    Expandable architecture for future IoT integration
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- FUTURE IMPROVEMENTS -->
+    <!-- ========================= -->
+
+    <section class="project-content-section reveal">
+
+        <div class="section-header">
+
+            <p class="section-tag">
+                FUTURE
+            </p>
+
+            <h2>
+                Future Improvements
+            </h2>
+
+        </div>
+
+        <div class="project-content-card">
+
+            <p>
+
+                Planned future enhancements include WiFi-based
+                notifications, cloud integration, mobile application
+                support, GPS-assisted tracking, and intelligent
+                anomaly detection using machine learning models.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Hariharan K — Portfolio
+        </p>
+
+    </footer>
+
+
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>
